@@ -28,8 +28,7 @@ flowchart LR
     end
 
      subgraph GOLD[Gold layer]
-        G1[BLA BLA]
-        G2[BLA BLA]
+        G1[data for report]
     end
 
     CSV1 --> S_CSV1
@@ -41,5 +40,9 @@ flowchart LR
     UNS2 --> S_UNS2
     EXC1 --> S_EXC1
     EXC2 --> S_EXC2
+
+    S_CSV1 --> G1
+    S_JSON1 --> G1
+    S_EXC1 --> G1
     
     
