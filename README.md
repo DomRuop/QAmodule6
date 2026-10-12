@@ -1,4 +1,5 @@
-# QAmodule6
+# QA module 6
+# pipeline architecture
 
 
 ```mermaid
